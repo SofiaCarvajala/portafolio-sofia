@@ -139,6 +139,19 @@ main {
   transform: scale(1.04);
 }
 
+.pdf-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b91c1c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  height: 120px;
+}
+
 .card-body {
   padding: 14px 16px;
   border-top: 1px solid var(--border);
