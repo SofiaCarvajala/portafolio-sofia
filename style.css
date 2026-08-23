@@ -140,16 +140,16 @@ main {
 }
 
 .pdf-thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #b91c1c;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  height: 120px;
+  height: 260px;
+  background: #f0f0f0;
+}
+
+.pdf-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
 }
 
 .card-body {
