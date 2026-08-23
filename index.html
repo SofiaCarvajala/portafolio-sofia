@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofía Carvajal — Portafolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="avatar"><img src="images/perfil.png" alt="Sofía Carvajal"></div>
+      <div class="header-text">
+        <h1>Sofía Carvajal</h1>
+        <p class="role">Periodista &middot; Comunicaciones</p>
+        <p class="tagline">Portafolio de práctica profesional</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2 class="section-title">Videos</h2>
+      <hr>
+      <div class="grid">
+
+        <article class="card">
+          <div class="ig-embed">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DOReRSLCbyZ/" data-instgrm-version="14"></blockquote>
+          </div>
+          <div class="card-body">
+            <span class="date">10/03/2025</span>
+            <h3>Festival 4ta DEI: Distrito de Emprendimiento e Innovación</h3>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="ig-embed">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DPFY_z4Cdqn/" data-instgrm-version="14"></blockquote>
+          </div>
+          <div class="card-body">
+            <span class="date">09/26/2025</span>
+            <h3>Conmemoración Día Mundial del Turismo</h3>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="ig-embed">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DPW3wyoiZQA/" data-instgrm-version="14"></blockquote>
+          </div>
+          <div class="card-body">
+            <span class="date">09/06/2025</span>
+            <h3>Lanzamiento de Pampilla de San Isidro 2025</h3>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Notas web</h2>
+      <hr>
+      <div class="grid">
+
+        <a class="card link-card" href="https://colinadigital.cl/noticias/amenaza-a-la-vida-silvestre-alimentar-al-zorro-chilla-podria-alterar-el-ecosistema-local" target="_blank" rel="noopener">
+          <div class="thumb"><img src="images/nota_zorro.png" alt="Zorro chilla"></div>
+          <div class="card-body">
+            <span class="source">Colinadigital</span>
+            <span class="date">09/01/2025</span>
+            <h3>Alimentar al zorro chilla podría alterar el ecosistema local</h3>
+          </div>
+        </a>
+
+        <a class="card link-card" href="https://colinadigital.cl/noticias/brochas-y-esponjas-de-maquillaje-un-foco-de-infeccionesl" target="_blank" rel="noopener">
+          <div class="thumb"><img src="images/nota_brochas.png" alt="Brochas de maquillaje"></div>
+          <div class="card-body">
+            <span class="source">Colinadigital</span>
+            <span class="date">09/01/2025</span>
+            <h3>Brochas y esponjas de maquillaje: un foco de infecciones</h3>
+          </div>
+        </a>
+
+        <a class="card link-card" href="https://colinadigital.cl/noticias/de-las-cenas-clandestinas-al-restaurante-propio" target="_blank" rel="noopener">
+          <div class="thumb"><img src="images/nota_cenas.png" alt="Restaurante propio"></div>
+          <div class="card-body">
+            <span class="source">Colinadigital</span>
+            <span class="date">08/15/2025</span>
+            <h3>De las cenas clandestinas al restaurante propio</h3>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Sofía Carvajal</p>
+  </footer>
+
+  <!-- Script oficial de Instagram: procesa TODOS los blockquote .instagram-media
+       de la página y los reemplaza por el iframe embebido real. -->
+  <script async src="//www.instagram.com/embed.js"></script>
+  <script>
+    // Reintenta el proceso por si el script carga antes de que el DOM esté listo,
+    // o si el navegador cachea window.instgrm de una carga previa.
+    function processInstagramEmbeds() {
+      if (window.instgrm) {
+        window.instgrm.Embeds.process();
+      } else {
+        setTimeout(processInstagramEmbeds, 300);
+      }
+    }
+    document.addEventListener('DOMContentLoaded', processInstagramEmbeds);
+  </script>
+</body>
+</html>
